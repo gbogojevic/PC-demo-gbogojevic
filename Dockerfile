@@ -7,4 +7,3 @@ RUN pip3 install gitpython azure-identity azure-storage-blob
 RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash   
 EXPOSE 8080 
 ENTRYPOINT [ "python3", "wild.py"]
-#test12345
